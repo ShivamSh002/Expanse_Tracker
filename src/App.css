@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+    background-color: #3B3B3B;
+    color: white
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trackerWrapper {
+    background-color: #626262;
+    width: 98vw;
+    margin: 13px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.walletWrapper {
+    background-color: #9B9B9B;
+    margin: 30px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    width: 355.41px;
+    p {
+        font-size: 30px;
+        font-weight: 400;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    width: 167px;
+    height: 38px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn2 {
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 100%, #FF3838 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    width: 167px;
+    height: 38px;
+    border-radius: 10px;
+    cursor: pointer;
 }
